@@ -59,11 +59,13 @@ class Integration():
                 elif pow2 == "3":
                     result = f"(tan^2{var})/2 + ln|cos{var}| + c"
                     return result
-               
+
+
+    
         
         
 def main():
-    func = input ("Enter function to be integrated: ")
+    func = input ("This integrates with respect to the variable used. \nEnter function to be integrated: ")
     
     if func == "cosx":                      #converts these simple functions into this form for solving
         func = "cos^1x"
